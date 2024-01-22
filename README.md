@@ -26,7 +26,7 @@ I expanded the algorithm by making it find every complex root near the origin of
 
 ### The gist of the algorithm
 
-  1. Place points on the complex grid making a square with upper left corner in $(-n,n)$ and down right corner $(n,-n)$ where $n\in\mathbb{N}.
+  1. Place points on the complex grid making a square with upper left corner in $(-n,n)$ and down right corner $(n,-n)$ where $n\in\mathbb{N}$.
   2. Apply Newton-Raphson approximation algorithm on each of them and make a list of them.
   3. filter out duplicates and unaccurate approximations
   4. return the remaining list
